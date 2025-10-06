@@ -20,7 +20,8 @@
 
 ## 💥 News
 
-- **[2025-01-23]** We release the code and pre-trained model of TIGER! 🚀
+- **[2025-10-07]** We release the code and pre-trained model of TIGER-small and TIGER-tiny! 🚀 ([small](https://huggingface.co/JusperLee/TIGER-speech-small), [tiny](https://huggingface.co/JusperLee/TIGER-speech-tiny))
+- **[2025-01-23]** We release the code and pre-trained model of TIGER! 🚀 ([huggingface](https://huggingface.co/JusperLee/TIGER-speech))
 - **[2025-01-23]** We release the TIGER model and the EchoSet dataset! 🚀
 
 ## 📜 Abstract
