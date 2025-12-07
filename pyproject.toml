@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TIGER"
+version = "0.0.1"
+description = "<<<ENTER_DESCRIPTION>>>"
+authors = [
+    { name = "TIGER"},
+]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+# urls = { Documentation = "<<<ENTER_LINK_TO_DOCUMENTATION>>>" }
+# Main dependencies
+
+dependencies = [
+    "torchaudio>=2.0",
+    "torch_complex",
+    "typeguard<=2.13.3",
+    "pytorch_lightning<=2.6.0",
+    "torchcodec<=0.9.0"
+]
+
+[project.optional-dependencies]
+# Development packages, install via <<<PROJECT_NAME>>>[dev]
+dev = [
+]
+
+[project.scripts]
+# E.g., ns-download-data = "scripts.downloads.download_data:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]  # Keep the '*', otherwise submodules are not found
