@@ -1,5 +1,5 @@
 ```PYTHON
-```!pip install git+https://github.com/OutofAi/tigersound.git
+!pip install git+https://github.com/OutofAi/tigersound.git
 ```
 
 ```PYTHON
